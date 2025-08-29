@@ -1,2 +1,2 @@
-# thirdgrowth.github.io
+# thirdgrowth
 third growth site
