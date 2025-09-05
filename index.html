@@ -6,6 +6,30 @@
 <body>
     <h1>Welcome to the Third Growth!</h1>
     <p> About AI Agents and more!</p>
+
+	<div id="chatbot-sales"></div>
+    <div id="chatbot-support"></div>
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+// Initialize the sales chatbot in its container
+createChat({
+  webhookUrl: 'https://tiedan.thirdgrowth.app/webhook/21d07bfc-5e1d-4753-8c98-ba0aed15ac10/chat',
+  hostElement: document.getElementById('chatbot-sales'),
+  // other config...
+});
+
+// Initialize the support chatbot in its container
+createChat({
+  webhookUrl: 'https://tiedan.thirdgrowth.app/webhook/f2d95549-d665-4eaa-ae49-cf10f09bdc9d/chat',
+  hostElement: document.getElementById('chatbot-support'),
+  // other config...
+});
+
+</script>
+
+	
     <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
 <script type="module">
 	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
