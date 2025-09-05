@@ -18,12 +18,18 @@
 </script>
 	-->
 
-	<script src="https://cdn.n8n.io/chat-widget.js"></script>
-<script>
-  window.n8nChat.init({
-    webhookUrl: "https://tiedan.thirdgrowth.app/webhook/21d07bfc-5e1d-4753-8c98-ba0aed15ac10/chat",
-    mode: "embedded",
-	  botName: "Tiedan",
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+  import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+  createChat({
+    webhookUrl: 'https://tiedan.thirdgrowth.app/webhook/966e58e3-1fe7-4aca-86b8-30bc5284c77c/chat',
+    botName: 'Tiedan',   // 👈 override “Nathan”
+    //botAvatar: 'https://example.com/avatar.png',  // optional
+    theme: {
+      primaryColor: '#008080',
+      welcomeMessage: 'Hi! I’m your assistant 🤖'  // optional custom intro
+    }
   });
 </script>
 </body>
