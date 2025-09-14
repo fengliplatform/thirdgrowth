@@ -1,0 +1,5 @@
+body.emcm-body{background-color:#ffff}
+@media(max-width:767px){#root{overflow:clip}
+}
+.grecaptcha-badge{display:none}
+.no-background-image{background-image:none !important}

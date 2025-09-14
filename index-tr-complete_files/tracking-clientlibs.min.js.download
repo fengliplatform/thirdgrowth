@@ -1,0 +1,1 @@
+(function(e,b){b(e).ready(function(){var a=b(".chatBotTrackingVariables"),c=a.data("tracking-campaign-code"),d=a.data("tracking-channel-code");a=a.data("tracking-sfdc-code");try{c&&window.localStorage.setItem("cid",c),d&&window.localStorage.setItem("chl",d),a&&window.localStorage.setItem("sfdccampaignid",a)}catch(f){console.error(f)}})})(document,$);

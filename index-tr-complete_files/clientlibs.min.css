@@ -1,0 +1,5 @@
+.embeddedServiceHelpButton .helpButton .uiButton{background-color:#0e568c;font-family:"Salesforce Sans",sans-serif}
+.embeddedServiceHelpButton .helpButton .uiButton:focus{outline:1px solid #0e568c}
+@font-face{font-family:'Salesforce Sans';src:url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff') format('woff'),url('https://c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf') format('truetype')}
+@media(max-width:1200px){.embeddedServiceHelpButton .helpButton{bottom:85px}
+}
