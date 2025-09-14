@@ -1,0 +1,155 @@
+@font-face {
+    font-family: ArialBold;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/Arial/ArialBold_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/Arial/ArialBold_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: ArialRegular;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/Arial/ArialRegular_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/Arial/ArialRegular_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: GeorgiaProBoldItalic;
+    font-style: italic;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProBoldItalic_italic_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProBoldItalic_italic_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: GeorgiaProCondensedBlack;
+    font-style: normal;
+    font-stretch: condensed;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProCondensedBlack_normal_condensed.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProCondensedBlack_normal_condensed.woff) format("woff")
+}
+
+@font-face {
+    font-family: GeorgiaProCondensedItalic;
+    font-style: italic;
+    font-stretch: condensed;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProCondensedItalic_italic_condensed.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProCondensedItalic_italic_condensed.woff) format("woff")
+}
+
+@font-face {
+    font-family: GeorgiaProCondensedSemiBoldItalic;
+    font-style: italic;
+    font-stretch: condensed;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProCondensedSemiBoldItalic_italic_condensed.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/GeorgiaPro/GeorgiaProCondensedSemiBoldItalic_italic_condensed.woff) format("woff")
+}
+
+@font-face {
+    font-family: GothamBlack;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/Gotham/GothamBlack_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/Gotham/GothamBlack_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: GothamBold;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/Gotham/GothamBold_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/Gotham/GothamBold_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: GothamLight;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/Gotham/GothamLight_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/Gotham/GothamLight_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: GothamMedium;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/Gotham/GothamMedium_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/Gotham/GothamMedium_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: NeueHelvetica55Roman;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica55Roman_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica55Roman_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: NeueHelvetica67CondensedMedium;
+    font-style: normal;
+    font-stretch: condensed;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica67CondensedMedium_normal_condensed.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica67CondensedMedium_normal_condensed.woff) format("woff")
+}
+
+@font-face {
+    font-family: NeueHelvetica75Bold;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica75Bold_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica75Bold_normal_normal.woff) format("woff")
+}
+
+@font-face {
+    font-family: NeueHelvetica77CondensedBold;
+    font-style: normal;
+    font-stretch: condensed;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica77CondensedBold_normal_condensed.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica77CondensedBold_normal_condensed.woff) format("woff")
+}
+
+@font-face {
+    font-family: NeueHelvetica85Heavy;
+    font-style: normal;
+    font-stretch: normal;
+    font-display: swap;
+    src: url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica85Heavy_normal_normal.woff2) format("woff2"), url(/nextGBrowseAssets/fonts/NeueHelvetica/NeueHelvetica85Heavy_normal_normal.woff) format("woff")
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color, #fff);
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica Neue, Helvetica, Arial, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif;
+    font-stretch: 100%
+}
+
+body,
+html {
+    height: 100%
+}
+
+button {
+    padding: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+ul {
+    margin: 0
+}
+
+:global(#root) {
+    height: 100%
+}

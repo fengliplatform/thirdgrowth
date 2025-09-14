@@ -1,0 +1,88 @@
+.video-js .vjs-picture-in-picture-control,
+.vjs-big-play-noDisplay .vjs-big-play-button {
+    display: none
+}
+
+.vjs-modal-dialog.vjs-text-track-settings {
+    height: 100%
+}
+
+#modalClosebtn button:focus {
+    outline: 2px solid highlight;
+    outline: 2px auto -webkit-focus-ring-color;
+    outline-offset: 2px
+}
+
+#modalClosebtn button:focus-visible {
+    outline: 2px solid highlight;
+    outline: 2px auto -webkit-focus-ring-color;
+    outline-offset: 2px
+}
+
+.video-js .vjs-control:focus,
+.video-js .vjs-control:focus:before,
+.video-js .vjs-control:hover:before {
+    text-shadow: none
+}
+
+.video-js .vjs-slider:focus {
+    text-shadow: none;
+    box-shadow: none
+}
+
+.vjs-text-track-settings select {
+    color: #000
+}
+
+.video-js.vjs-layout-x-small .vjs-menu-button-popup .vjs-menu .vjs-menu-content {
+    max-height: 7.5em
+}
+
+.vjs-menu-item.vjs-subtitles-menu-item span {
+    text-transform: capitalize
+}
+
+.video-player .video-js .vjs-big-play-button {
+    opacity: .7;
+    background-color: #333;
+    border: none;
+    border-radius: 100px;
+    width: 118px;
+    height: 118px;
+    margin-top: -59px;
+    margin-left: -59px;
+    line-height: 118px
+}
+
+.video-player .video-js .vjs-big-play-button:focus {
+    opacity: .5;
+    background-color: #333
+}
+
+.video-player .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+    content: "";
+    font-size: 73px
+}
+
+.video-player .video-js .video-duration-overlay {
+    color: #fff;
+    background-color: rgba(51, 51, 51, .6);
+    border-radius: 24px;
+    padding: 2px 12px;
+    font-size: 14px;
+    line-height: 20px;
+    position: absolute;
+    bottom: 9.25px;
+    right: 18px
+}
+
+@media (max-width:568px) {
+    .vjs-accessible-button {
+        width: 40px;
+        height: 55px;
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        left: 0
+    }
+}
