@@ -12,14 +12,29 @@
 
   createChat({
     webhookUrl: 'https://tiedan.thirdgrowth.app/webhook/d1a12da1-212e-4df4-a8fb-dd7e6536dfb6/chat',
-    botName: 'TRBot',   
-    //botAvatar: 'https://example.com/avatar.png',  // optional
-    theme: {
-      primaryColor: '#008080',
-      welcomeMessage: 'Hi! I’m your assistant TRBot 🤖'  
-    }
+webhookConfig: {
+		method: 'POST',
+		headers: {}
+	},
+	target: '#n8n-chat',
+	mode: 'window',
+	defaultLanguage: 'en',
+	initialMessages: [
+		'Hi there! 👋',
+		'My name is Nathan. How can I assist you today?'
+	],
+	i18n: {
+		en: {
+			title: 'Hi there Feng! 👋',
+			subtitle: "Start a chat feng. We're here to help you 24/7.",
+			footer: '',
+			getStarted: 'New Conversation feng',
+			inputPlaceholder: 'Type your question..feng',
+		},
+	}
   });
 </script>
 </body>
 </html>
+
 
